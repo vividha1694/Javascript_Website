@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="coffee.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Crafted Coffees</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header class="header">
+        <div class="flex container">
+            <a href="#"><img src="coffee.svg" height="30px"></a>
+            <nav class="nav">
+                <a href="#">home</a>
+                <a href="#">about us</a>
+                <a href="#">discover</a>
+                <a href="#">contact us</a>
+            </nav>
+        </div>
+        <div class="heading">
+            <h1>Crafted Coffees</h1>
+            <h3>"Coffee पे चर्चा"</h3>
+        </div>
+        <div class="arrow"><a href="#"><img src="down-arrow.svg"></a></div>
+    </header>
+    <div class="divider"></div>
+
+    <!--Sections-->
+    <!--FIRST-->
+    <section>
+        <div class="flex">
+            <article class="container2">
+                <center><img src="coffee-bag.svg" alt="" height="45px"></center>
+                <h3 class="first">made in us</h3>
+                <p class="first_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                    porro.</p>
+            </article>
+
+            <article class="container2">
+                <center><img src="spa.svg" alt="" height="45px"></center>
+                <h3 class="first">relaxation</h3>
+                <p class="first_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                    porro.</p>
+            </article>
+
+            <article class="container2">
+                <center><img src="ecology-and-environment.svg" alt="" height="45px"></center>
+                <h3 class="first">energy</h3>
+                <p class="first_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                    porro.</p>
+            </article>
+
+            <article class="container2">
+                <center><img src="cook.svg" alt="" height="45px"></center>
+                <h3 class="first first_h">family recipe</h3>
+                <p class="first_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                    porro.</p>
+            </article>
+    </section>
+
+    <!--SECOND-->
+    <section class="flex">
+        <article class="container3">
+            <div>
+                <video autoplay muted loop id="video" src="woman-drinking-coffee2.mp4"></video>
+            </div>
+        </article>
+
+        <article class="container3">
+            <h3 class="second_h">ABOUT</h3>
+            <h2>Crafted Coffee's</h2>
+            <p class="second_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores.</p>
+            <p class="second_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores.</p>
+            <a class="btn" href="#">LEARN</a>
+        </article>
+    </section>
+
+    <!--THIRD-->
+    <section>
+        <div class="menu_bg">
+            <div class="third_h">
+                <h1>Discover</h1>
+                <h3>O U R &nbsp; M E N U</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--FOURTH-->
+    <section class="hr_container">
+        <div class="hr_btn">
+            <hr class="hr">
+        </div>
+        <button type="button" id="drinks" onclick="switchDrinksBtn()" class="button"><img src="hot-drinks (1).png"
+                alt="" class="img_circle"></button>
+        <button type="button" id="snacks" onclick="switchSnacksBtn()" class="button"><img src="snack.png" alt=""
+                class="img_circle"></button>
+        <div class="hr_btn">
+            <hr class="hr">
+        </div>
+    </section>
+
+    <!--FIFTH-->
+    <div id="id-menu-drinks" class="menu-drinks">
+        <section class="flex">
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="1.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="2.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="3.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="4.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="flex">
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="5.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="6.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="7.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="8.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <div id="id-menu-snacks" class="menu-snacks">
+        <section class="flex">
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="11.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="12.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="13.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="14.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="flex">
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="15.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="16.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="17.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip_card">
+                <div class="flip_card_inner">
+                    <div class="flip_card_front">
+                        <img src="18.jpeg" alt="" class="menu_img">
+                    </div>
+                    <div class="flip_card_back">
+                        <h3 class="menu_h">CAFFE AMERICANO</h3>
+                        <p class="menu_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                            dolores.
+                        </p>
+                        <h3 class="menu_h">₹ COST</h3>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+    
+    <!---SIXTH-->
+    <section class="flex container">
+        <artcle class="basis">
+            <h3 class="title">YOUR RESPONSE</h3>
+            <form>
+                <label for="fname">Name</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Alex Hunter" required="Name" /><br>
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="cityname" placeholder="City Name" required="City Name" /><br>
+                <label for="mail">E-Mail</label><br>
+                <input type="email" id="email" name="mail" placeholder="alexhunter@xyz.com" required="Email" />
+                <label for="subject">Rate Us:</label><br>
+                <fielset>
+                    <input type="radio" id="star1" name="rating" value="1" />
+                    <label for="star1" title=""></label>
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2" title=""></label>
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3" title=""></label>
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4" title=""></label>
+                    <input type="radio" id="star5" name="rating" value="5" />
+                    <label for="star5" title=""></label>
+                </fielset><br><br>
+
+                <label for="subject">Your Reviews</label><br>
+                <textarea id="feedback" name="feedback" placeholder="Your Thoughts" style="height:120px"
+                    cols="73"></textarea>
+
+                <p><input type="submit" value="SUBMIT"></p>
+            </form>
+        </artcle>
+        <article class="basis">
+            <h3 class="title">TESTIMONIAL</h3>
+            <div class="sliders">
+                <div>
+                    <p>"For far away, behind the world mountains,far from countries Vokalia and Consonantia, there live
+                        the
+                        blind texts. Separated the live in Bookmarksgrove right at the coast of the Semantics, a large
+                        language ocean."</p><br>
+                    <img class="slider-img" src="people_1.jpeg">
+                    <h3 class="sliders-name-one">Charles White</h3>
+                    <hr class="sliders-hr1">
+                    <div class="social">
+                        <img src="instagram-red.svg" class="slider-social">
+                        <img src="facebook-red.svg" class="slider-social">
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <p>"For far away, behind the world mountains,far from countries Vokalia and Consonantia, there live
+                        the
+                        blind texts. Separated the live in Bookmarksgrove right at the coast of the Semantics, a large
+                        language ocean."</p>
+                        <img class="slider-img-two" src="people_2.jpeg">
+                    <h3 class="sliders-name-two">Seth Doyle</h3>
+                    <hr class="sliders-hr2">
+                    <div class="social-again">
+                        <img src="instagram-red.svg" class="slider-social">
+                        <img src="facebook-red.svg" class="slider-social">
+                    </div>
+                </div>
+            </div>
+            <div class="sliders">
+                <div>
+                    <p>"For far away, behind the world mountains,far from countries Vokalia and Consonantia, there live
+                        the
+                        blind texts. Separated the live in Bookmarksgrove right at the coast of the Semantics, a large
+                        language ocean."</p>
+                    <img class="slider-img" src="people_3.jpeg">
+                    <h3 class="sliders-name-one">Seth Doyle</h3>
+                    <hr class="sliders-hr1">
+                    <div class="social">
+                        <img src="instagram-red.svg" class="slider-social">
+                        <img src="facebook-red.svg" class="slider-social">
+                    </div>
+                </div>
+            <div style="margin-top: 20px;">
+                    <p>"For far away, behind the world mountains,far from countries Vokalia and Consonantia, there live the
+                blind texts. Separated the live in Bookmarksgrove right at the coast of the Semantics, a large
+                language ocean."</p>
+                    <img class="slider-img-two" src="people_4.jpeg">
+                    <h3 class="sliders-name-two">Seth Doyle</h3>
+                    <hr class="sliders-hr2">
+                    <div class="social-again">
+                       <img src="instagram-red.svg" class="slider-social">
+                       <img src="facebook-red.svg" class="slider-social">
+                    </div>
+            </div>
+            </div>
+            <div class="sliders">
+                <div>
+                    <p>"For far away, behind the world mountains,far from countries Vokalia and Consonantia, there live
+                        the
+                        blind texts. Separated the live in Bookmarksgrove right at the coast of the Semantics, a large
+                        language ocean."</p>
+                    <img class="slider-img" src="people_5.jpeg">
+                    <h3 class="sliders-name-one">Seth Doyle</h3>
+                    <hr class="sliders-hr1">
+                    <div class="social">
+                        <img src="instagram-red.svg" class="slider-social">
+                        <img src="facebook-red.svg" class="slider-social">
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <p>"For far away, behind the world mountains,far from countries Vokalia and Consonantia, there live
+                        the
+                        blind texts. Separated the live in Bookmarksgrove right at the coast of the Semantics, a large
+                        language ocean."</p>
+                    <img class="slider-img-two" src="people_6.jpeg">
+                    <h3 class="sliders-name-two">Seth Doyle</h3>
+                    <hr class="sliders-hr2">
+                    <div class="social-again">
+                        <img src="instagram-red.svg" class="slider-social">
+                        <img src="facebook-red.svg" class="slider-social">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </article>
+    </section>
+    
+    <!---SEVENTH-->
+    <section class="contact-template" id="id-contact">
+        <h1 class="contact-title">Contact</h1>
+        <br><center><h3 class="menu-subtitle">L O C A T E&nbsp;&nbsp;U S</h3></center>
+    </section>
+    
+    <!---EIGHTH-->
+    <section class="flex">
+          <article class="contact-map" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.435760888755!2d72.81818205068974!3d22.60019718757948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7571b60b6c28001b!2sDevang%20Patel%20Institute%20of%20Advance%20Technology%20and%20Research!5e0!3m2!1sen!2sin!4v1578498063542!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+            ></iframe>
+          </article>
+
+          <article class="contact-img" >
+            <div class="opening-container">
+              <img src="Struct.jpg" alt="" style="width:100%;">
+              <div class="opening-text ">
+                <h3>O P E N&nbsp;&nbsp;H O U R S</h3>
+                  <p>
+                    <strong>Monday: Closed</strong><br>
+                    <strong>Tuesday to Friday</strong><br>
+                    7:00 AM - 9:00 PM<br>
+                    <strong>Saturday & Sunday</strong><br>
+                    11:00 AM - 10:00 PM
+                  </p>
+              </div>
+            </div>
+          </article>
+        </section>
+     
+    <!---NINTH-->    
+    <section>
+        <center>
+            <div class="contact-social">
+                <a class="contact-social-icons" href="#"><img src="facebook.svg" weight="25" title="facebook" height="25"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="contact-social-icons" href="#"><img src="instagram.svg" weight="25" title="instagram" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="contact-social-icons" href="#"><img src="google.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="contact-social-icons" href="#"><img src="linkedin.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="contact-social-icons" href="#"><img src="whatsapp.svg" weight="25" title="whatsapp" height="25"></a> 
+            </div><br>
+            <p class="para-settings">Copyright © 2020 | <a class="colorcover-link" href="#" style="color: black;">Crafted Coffee's</a></p><br><br>
+          </div>
+        </center>
+    </section>
+    
+        <script src="script.js"></script>
+
+</body>
+
+</html>
